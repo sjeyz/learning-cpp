@@ -17,3 +17,20 @@ int main(){
 	}
 	
 }
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main(){
+	
+	string answer = "sawera";
+	string gusess;
+	cout<<"gusess my name:";
+	cin>>gusess;
+	if(gusess == answer){
+		cout<<"you are right";
+	}
+	else{
+		cout<<"you are not right";
+	}
+}
