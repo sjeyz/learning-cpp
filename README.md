@@ -7,7 +7,14 @@ cout<<"enter the number:"<<endl;
 cin>>num;
 if(num > 0){
 	cout<<"positive number"<<endl;using namespace std;#include<iostream>
-using namespace std; 
+using namespace std; #include<iostream>
+using namespace std;
+int main(){
+	int n = 9;
+	cout<<(n>0?"postive":"nagtie")<<endl;
+	return 0;
+}
+
 char ch;
 int main(){
 	
