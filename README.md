@@ -6,7 +6,24 @@ int main(){
 cout<<"enter the number:"<<endl;
 cin>>num;
 if(num > 0){
-	cout<<"positive number"<<endl;using namespace std;
+	cout<<"positive number"<<endl;using namespace std;#include<iostream>
+using namespace std; 
+char ch;
+int main(){
+	
+   cout<<" Enter the charters:"<<endl;
+   cin>>ch;
+
+    if(ch >= 'a' && ch <= 'z') { 
+
+	cout<<"lowercase\n"; 
+}
+    else if(ch >= 'A' && ch <= 'Z') { 
+
+	cout<<"uppercase\n";
+}
+return 0;
+}
 int num;
 int main(){
 	cout<<"enter the number:"<<endl;
