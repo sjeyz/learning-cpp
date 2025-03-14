@@ -6,7 +6,20 @@ int main(){
 cout<<"enter the number:"<<endl;
 cin>>num;
 if(num > 0){
-	cout<<"positive number"<<endl;
+	cout<<"positive number"<<endl;using namespace std;
+int num;
+int main(){
+	cout<<"enter the number:"<<endl;
+	cin>>num;
+	if(num %2 ==0){
+		cout<<"the number is even"<<endl;
+	}
+	else{
+		cout<<"the number is odd"<<endl;
+	}
+	return 0;
+}
+
 }
 if(num< 0)
 {
