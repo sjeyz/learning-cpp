@@ -1,5 +1,20 @@
 #include<iostream>
+using namespace std;#include<iostream>
 using namespace std;
+int num;
+int main(){
+cout<<"enter the number:"<<endl;
+cin>>num;
+if(num > 0){
+	cout<<"positive number"<<endl;
+}
+if(num< 0)
+{
+	        cout << "Negative number" << endl;
+
+}
+return 0;
+
 
 int main(){
 	cout<<"how you old :";
