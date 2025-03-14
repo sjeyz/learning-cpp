@@ -12,6 +12,21 @@ if(num< 0)
 {
 	        cout << "Negative number" << endl;
 
+#include<iostream>
+using namespace std;
+int age;
+int main(){
+	cout<<"enter the age:"<<endl;
+	cin>>age;
+	if(age >= 18){
+		cout<<"You are eligible to vote:"<<endl;
+	}
+	else
+	{
+		cout<<"you are not eligible to vote:"<<endl;
+	}
+	return 0;
+}
 }
 return 0;
 
