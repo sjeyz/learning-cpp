@@ -12,6 +12,72 @@ int main(){
 	cout<<"enter the number:"<<endl;
 	cin>>num;
 	if(num %2 ==0){
+#include<iostream>
+using namespace std;
+int main(){
+	int marks;
+	string name;
+	cout<<"enter the marks:"<<endl;
+	cin>>marks;
+	cout<<"enter the name:"<<endl;
+	    cin.ignore();
+    getline(cin, name); 
+
+	if(marks >90){
+		cout<<"execellent : "<<name<< "!" <<endl;
+		cout<<"greate:A"<<endl;}
+		else if(marks >= 80){
+			cout<<"good job: "<<name<<"!"<<endl;
+			cout<<"grate B"<<"!"<<endl;
+#include<iostream>
+using namespace std;
+int main(){
+	int marks;
+	string name;
+	cout<<"enter the marks:"<<endl;
+	cin>>marks;
+	cout<<"enter the name:"<<endl;
+	    cin.ignore();
+    getline(cin, name); 
+
+	if(marks >90){
+		cout<<"execellent : "<<name<< "!" <<endl;
+		cout<<"greate:A"<<endl;}
+		else if(marks >= 80){
+			cout<<"good job: "<<name<<"!"<<endl;
+			cout<<"grate B"<<"!"<<endl;
+		}
+		else if(marks >= 70){
+			cout<<"well done : "<<name << "!" <<endl;
+			cout<<" grate c"<<endl;
+			
+		}
+		 else if (marks >= 60) {
+        cout << "You need more practice: " << name << "!" << endl;
+        cout << "Grade: D" << endl;}
+        else{
+        	cout << "Repeat more:  " << name << "!" << endl;
+        cout << "Grade: F" << endl;
+    }
+
+    return 0;
+}
+		}
+		else if(marks >= 70){
+			cout<<"well done : "<<name << "!" <<endl;
+			cout<<" grate c"<<endl;
+			
+		}
+		 else if (marks >= 60) {
+        cout << "You need more practice: " << name << "!" << endl;
+        cout << "Grade: D" << endl;}
+        else{
+        	cout << "Repeat more:  " << name << "!" << endl;
+        cout << "Grade: F" << endl;
+    }
+
+    return 0;
+}
 		cout<<"the number is even"<<endl;
 	}
 	else{
